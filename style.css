@@ -311,6 +311,9 @@
     .scroll {
       font-family: "Germanica";
     }
+    .navbar {
+      width: 50%;
+    }
   
   }
 
