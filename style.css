@@ -245,7 +245,7 @@
       align-items: center;
     }
     .navbar .media li a {
-      color: #fff;
+      color: rgb(30, 214, 113);
       text-decoration: none;
       text-transform: lowercase;
       font-family: 'chomsky', sans-serif;
