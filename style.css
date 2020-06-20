@@ -332,6 +332,7 @@
       -webkit-text-stroke: 1px rgb(88, 0, 0);
       text-transform: lowercase;
       transform: rotate(-90deg);
+      z-index: -3;
   
     }
 
