@@ -298,7 +298,14 @@
       
     }
     .slide-number {
-      font-size: 55px;
+      position: absolute;
+      top: -35px;
+      right: -10px;
+      z-index: 1;
+      width: 210px;
+      height: 210px;
+      overflow: hidden;
+      cursor: auto;
     }
     .listen-here {
       position: absolute;
