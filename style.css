@@ -303,7 +303,7 @@
       width: 400px;
       height: 100px;
       left: 12%;
-      font-family: 'chomsky';
+      font-family: 'chomsky', url(./fonts/Chomsky.otf);
       font-weight: 600;
       text-transform: lowercase;
       color: white;
