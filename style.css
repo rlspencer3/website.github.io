@@ -275,7 +275,7 @@
     .slide-text  h4{
       position: absolute;
       font-size: 30px;
-      padding-right: 30px;
+      padding-right: 5px;
       bottom: -25px;
       left: 5px;
       z-index: 1;
