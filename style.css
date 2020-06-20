@@ -300,7 +300,7 @@
     }
     .listen-here {
       position: absolute;
-      bottom: -120px;
+      bottom: 0px;
       width: 400px;
       left: 0%;
       font-family: 'chomsky';
