@@ -271,6 +271,7 @@
       position: absolute;
       top: 0%;
       left: 50%;
+      transform: translate(-66%);
       z-index: -3;
       width: 400px;
       height: 400px;
