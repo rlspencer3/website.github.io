@@ -282,9 +282,12 @@
       height: 100px;
       display: flex;
       justify-content: center;
-      padding-top: 50px;
+      padding-top: 20px;
 
       
+    }
+    .subtitle h1 {
+      padding-left: 30px;
     }
     .slide-img {
       background-position: 50%;
