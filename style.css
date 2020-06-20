@@ -236,6 +236,14 @@
       top: 33px;
       transform: translate(-66%);
     }
+    .navbar {
+      height: 100px;
+      width: 100vw;
+      background-color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
     .navbar .media li a {
       color: #fff;
       text-decoration: none;
@@ -244,6 +252,10 @@
       font-size: 20px;
       width: 100vw;
       height: 100px;
+    }
+    .navbar {
+      height: 50px;
+      width: 100%;
       background-color: black;
     }
     .media li a {
