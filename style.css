@@ -261,6 +261,7 @@
       left: 50%;
       top: 33px;
       transform: translate(-66%);
+      color: white;
     }
     .logo {
       margin-left: 50px;
