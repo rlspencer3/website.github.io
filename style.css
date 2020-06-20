@@ -229,7 +229,7 @@
   }
   @media (max-width: 600px) {
     .logo {
-      font-size: 90px;
+      font-size: 70px;
       position: absolute;
       z-index: 4;
       left: 50%;
@@ -241,7 +241,7 @@
       text-decoration: none;
       text-transform: lowercase;
       font-family: 'chomsky', sans-serif;
-      font-size: 30px;
+      font-size: 20px;
       width: 100vw;
       height: 100px;
     }
