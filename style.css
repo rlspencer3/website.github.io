@@ -228,14 +228,7 @@
     z-index: 2;
   }
   @media (max-width: 600px) {
-    .logo {
-      font-size: 70px;
-      position: absolute;
-      z-index: 4;
-      left: 50%;
-      top: 33px;
-      transform: translate(-66%);
-    }
+    
     .navbar {
       height: 100px;
       width: 100vw;
@@ -260,6 +253,14 @@
     }
     .media li a {
       visibility: visible;
+    }
+    .logo {
+      font-size: 70px;
+      position: absolute;
+      z-index: 4;
+      left: 50%;
+      top: 33px;
+      transform: translate(-66%);
     }
     .logo {
       margin-left: 50px;
