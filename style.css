@@ -300,7 +300,7 @@
     .slide-number {
       position: absolute;
       top: -35px;
-      right: -10px;
+      right: 0px;
       z-index: 1;
       width: 210px;
       height: 210px;
