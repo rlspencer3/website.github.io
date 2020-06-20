@@ -263,6 +263,7 @@
     }
     .slide-text  {
       position: absolute;
+      font-size: 30px;
       bottom: -70px;
       left: 0px;
       z-index: 1;
