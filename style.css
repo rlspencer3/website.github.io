@@ -2,7 +2,7 @@
 =========================== */
 @font-face {
     font-family: 'Chomsky';
-    src: url('../fonts/Chomsky.otf') format('otf' , 'woff');
+    src: url(https://github.com/rlspencer3/website.github.io/tree/master/fonts/chomsky) format('otf' , 'woff');
   }
   @font-face {
       font-family: 'helvetica';
@@ -236,7 +236,7 @@
     margin-left: 760px;
     z-index: 2;
   }
-  @media (max-width: 700px) {
+  @media (max-width: 500px) {
     .logo {
       font-size: 90px;
     }
