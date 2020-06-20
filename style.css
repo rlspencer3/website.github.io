@@ -304,6 +304,7 @@
       width: 400px;
       left: 0%;
       font-family: 'helvetica';
+      text-transform: uppercase;
   
     }
     .scroll {
