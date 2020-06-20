@@ -18,7 +18,7 @@ var slider = new Swiper(".swiper-container", {
         opacity: '0',
       })
     TweenMax.to('.swiper-slide-active', .5, {
-      scale: .85
+      scale: .95
     })
   })
   
@@ -43,7 +43,7 @@ var slider = new Swiper(".swiper-container", {
         opacity: 100,
         y: '110px',
         delay: 1,
-        ease: Power4.easeIn,
+        ease: Power4.easeInOut,
       })
       TweenMax.to('button', 0, {
         y: '110px',
