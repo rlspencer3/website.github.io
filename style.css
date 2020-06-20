@@ -299,8 +299,8 @@
     }
     .slide-number p {
       position: absolute;
-      top: -35px;
-      right: 0px;
+      top: 0px;
+      right: 10px;
       z-index: 1;
       width: 210px;
       height: 210px;
