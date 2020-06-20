@@ -1,8 +1,8 @@
 /* FONTS
 =========================== */
 @font-face {
-    font-family: 'Chomsky';
-    src: url(./fonts/Chomsky.woff) format('otf' , 'woff');
+    font-family: 'Germanica';
+    src: url()
   }
   @font-face {
       font-family: 'helvetica';
@@ -308,7 +308,7 @@
   
     }
     .scroll {
-      font-family: "chomsky";
+      font-family: "Germanica";
     }
   
   }
