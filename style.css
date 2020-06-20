@@ -339,8 +339,8 @@
     .bg-text h1 {
       font-family: "chomsky";
       position: absolute;
-      font-size: 190px;
-      left: 0px;
+      font-size: 220px;
+      left: -100vw;
       justify-content: center;
       color: transparent;
       -webkit-text-stroke: 1px rgb(88, 0, 0);
