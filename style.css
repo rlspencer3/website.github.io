@@ -85,16 +85,7 @@
     transform: rotate(-90deg);
 
   }
-  .bg-text h1:hover {
-    font-family: "chomsky";
-    font-size: 280px;
-    text-align: center;
-    color: red;
-    -webkit-text-stroke: 1px rgb(240, 57, 57);
-    text-transform: lowercase;
-    transform: rotate(-90deg);
-
-  }
+  
   
   /* SLIDER
   =========================== */
@@ -239,16 +230,23 @@
   @media (max-width: 600px) {
     .logo {
       font-size: 90px;
+      position: absolute;
+      z-index: 4;
+      left: 50%;
+      top: 66px;
+      transform: translate(-66%);
     }
     .navbar .media li a {
       color: #fff;
       text-decoration: none;
-      text-transform: uppercase;
-      font-family: Helvetica, sans-serif;
-      font-size: 20px;
+      text-transform: lowercase;
+      font-family: 'chomsky', sans-serif;
+      font-size: 30px;
+      width: 100vw;
+      height: 100px;
     }
     .media li a {
-      visibility: hidden;
+      visibility: visible;
     }
     .logo {
       margin-left: 50px;
@@ -300,22 +298,32 @@
     }
     .listen-here {
       position: absolute;
-      bottom: -80px;
+      bottom: -10px;
       width: 400px;
-      left: 0%;
-      font-family: 'helvetica';
-      text-transform: uppercase;
-      color: yellow;
+      height: 100px;
+      left: 12%;
+      font-family: 'chomsky';
+      font-weight: 600;
+      text-transform: lowercase;
+      color: white;
+      font-size: 66px;
   
     }
     .scroll {
-      font-family: "Germanica";
+      font-family: "chomsky";
     }
-    .navbar {
-      width: 50vw;
-      position: absolute;
-      top: 0px;
+    .bg-text h1 {
+      font-family: "chomsky";
+      font-size: 190px;
+      justify-content: center;
+      color: transparent;
+      -webkit-text-stroke: 1px rgb(88, 0, 0);
+      text-transform: lowercase;
+      transform: rotate(-90deg);
+  
     }
+
+    
   
   }
 
