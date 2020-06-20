@@ -297,6 +297,9 @@
      
       
     }
+    .slide-number {
+      font-size: 55px;
+    }
     .listen-here {
       position: absolute;
       bottom: -10px;
