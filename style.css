@@ -1,8 +1,8 @@
 /* FONTS
 =========================== */
 @font-face {
-    font-family: 'Germanica';
-    src: url()
+    font-family: 'chomsky';
+    src: url(./fonts/Chomsky.woff);
   }
   @font-face {
       font-family: 'helvetica';
