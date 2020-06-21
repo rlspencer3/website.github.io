@@ -2,8 +2,8 @@
 =========================== */
 @font-face {
     font-family: 'chomsky';
-    src: url("./fonts/Chomsky.woff") format("woff2"),
-    url("./fonts/Chomsky.otf") format("woff");
+    src: url("./fonts/Chomsky.otf") format("otf"),
+    url("./fonts/Chomsky.otf") format();
     
   }
   @font-face {
