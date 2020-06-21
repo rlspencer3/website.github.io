@@ -563,6 +563,7 @@
       height: 200px;
       overflow: hidden;
       cursor: auto;
+      font-size: 85px;
     }
     .listen-here {
       position: absolute;
@@ -579,6 +580,8 @@
     }
     .scroll {
       font-family: "chomsky";
+      position: absolute;
+      bottom: 0px;
     }
     .bg-text h1 {
       font-family: "chomsky";
