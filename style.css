@@ -363,6 +363,8 @@
     }
     .scroll {
       font-family: "chomsky";
+      position: absolute;
+      bottom: 0px;
     }
     .bg-text h1 {
       font-family: "chomsky";
