@@ -6,7 +6,8 @@
   }
   @font-face {
       font-family: 'helvetica';
-      src: url()
+      src: url("./fonts/Chomsky.woff") format("woff2"),
+      url("./fonts/Chomsky.woff") format("woff");
   }
   
   
