@@ -72,6 +72,7 @@
   =========================== */
   .bg-text {
     position: absolute;
+    z-index: -100;
     top: 50%;
     left: 16%;
     transform: translate(-50%, -50%);
@@ -596,7 +597,7 @@
       -webkit-text-stroke: 1px rgb(88, 0, 0);
       text-transform: lowercase;
       transform: rotate(-90deg);
-      z-index: -3;
+      z-index: -100;
   
     }
 
