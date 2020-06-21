@@ -371,6 +371,7 @@
       bottom: 0px;
     }
     .bg-text h1 {
+      display: none;
       font-family: "chomsky";
       position: absolute;
       font-size: 220px;
@@ -590,6 +591,7 @@
       bottom: 0px;
     }
     .bg-text h1 {
+      display: none;
       font-family: "chomsky";
       position: absolute;
       font-size: 220px;
