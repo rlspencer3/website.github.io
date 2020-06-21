@@ -3,13 +3,12 @@
 @font-face {
     font-family: 'chomsky';
     src: url("./fonts/Chomsky.woff") format("woff2"),
-    url("./fonts/Chomsky.woff") format("woff");
+    url("./fonts/Chomsky.otf") format("woff");
     
   }
   @font-face {
       font-family: 'helvetica';
-      src: url("./fonts/Chomsky.woff") format("woff2"),
-      url("./fonts/Chomsky.woff") format("woff");
+      src: url()
   }
   
   
