@@ -111,6 +111,11 @@
     height: 700px;
     background-color: black;
     
+    
+  }
+  .button-wrapper {
+    width: 200px;
+    overflow: hidden;
   }
   
   .swiper-slide:nth-child(1) .slide-img {
