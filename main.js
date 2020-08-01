@@ -14,8 +14,9 @@ var slider = new Swiper(".swiper-container", {
     TweenMax.to('.slide-number span', .2, {
       x: '-200px',
     })
-    TweenMax.to('button', .2, {
-        opacity: '0',
+    TweenMax.to('.listen-here', .2, {
+        x: '-200px',
+        
       })
     TweenMax.to('.swiper-slide-active', .5, {
       scale: .95
@@ -38,17 +39,20 @@ var slider = new Swiper(".swiper-container", {
     })
     TweenMax.to('.slide-number span', 0, {
       x: '300px',
+      ease: Power4.easeOut,
     })
-    TweenMax.to('button', .2, {
-        opacity: 100,
-        y: '110px',
-        delay: 1.5,
-        ease: Power4.easeIn,
-      })
-      TweenMax.to('button', 0, {
-        y: '110px',
-        opacity: 0,
-      })
+    TweenMax.to('.listen-here', .2, {
+      x: 0,
+      delay: .7
+    })
+    TweenMax.to('.listen-here', 0, {
+      x: '300px',
+      ease: Power4.easeOut,
+    })
+    
+
+
+
     TweenMax.to('.swiper-slide-active', .5, {
       scale: 1,
       ease: Power4.easeOut,
