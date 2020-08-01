@@ -11,7 +11,7 @@ var slider = new Swiper(".swiper-container", {
     TweenMax.to('.slide-text span', .2, {
       y: '-100px',
     })
-    TweenMax.to('.slide-number span', .2, {
+    TweenMax.to('.slide-number span', .4, {
       x: '-200px',
     })
     TweenMax.to('.listen-here', .2, {
@@ -33,7 +33,7 @@ var slider = new Swiper(".swiper-container", {
       y: '100px',
     })
   
-    TweenMax.to('.slide-number span', .2, {
+    TweenMax.to('.slide-number span', .4, {
       x: 0,
       delay: .7
     })
