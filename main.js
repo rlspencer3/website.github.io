@@ -41,14 +41,6 @@ var slider = new Swiper(".swiper-container", {
       x: '300px',
       ease: Power4.easeOut,
     })
-    TweenMax.to('.listen-here', .2, {
-      x: 0,
-      delay: .7
-    })
-    TweenMax.to('.listen-here', 0, {
-      x: '300px',
-      ease: Power4.easeOut,
-    })
     
 
 
