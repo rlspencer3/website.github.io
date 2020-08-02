@@ -256,6 +256,10 @@
       width: 100vw;
       background-color: black;
     }
+    .navbar .media li {
+      display: inline-block;
+      padding-left: 30px;
+    }
     .media li a {
       visibility: visible;
     }
@@ -452,9 +456,11 @@
       width: 100vw;
       background-color: black;
       display: flex;
-      justify-content: space;
+      justify-content: space-around;
       align-items: center;
     }
+
+    
     .navbar .media li a {
       color: rgb(255, 255, 255);
       text-decoration: none;
@@ -463,6 +469,11 @@
       font-size: 11px;
       width: 100vw;
       height: 100px;
+    }
+    .navbar .media li {
+      display: inline-block;
+      padding-left: 5vw;
+      padding-right: 5vw;
     }
     .navbar {
       height: 50px;
@@ -513,21 +524,22 @@
       position: absolute;
       top: 0%;
       left: 50%;
-      transform: translate(-50%);
+      transform: translate(-66%);
       z-index: -3;
-      width: 200px;
-      height: 200px;
+      width: 300px;
+      height: 300px;
     }
     .slide-text  {
       position: absolute;
       font-size: 20px;
       bottom: -70px;
-      left: -55%;
+      left: -33%;
       z-index: 1;
       width: 370px;
       height: 100px;
       overflow: hidden;
       font-family: 'helvetica';
+      word-wrap: normal;
     }
     .slide-text  h4{
       position: absolute;
@@ -542,8 +554,8 @@
       font-family: 'helvetica';
     }
     .swiper-slide  {
-      width: 200px;
-      height: 200px;
+      width: 300px;
+      height: 300px;
       display: flex;
       align-items: flex-start;
       z-index: -4;
@@ -557,7 +569,7 @@
     .slide-number p {
       position: absolute;
       top: 0px;
-      right: -80px;
+      right: -40px;
       z-index: 1;
       width: 200px;
       height: 200px;
